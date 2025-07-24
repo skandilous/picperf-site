@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PicPerf – AI‑powered Product Photos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="assets/logo.png" alt="PicPerf logo" class="logo">
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Transform your product photos with AI</h1>
+      <p>PicPerf automatically removes backgrounds, applies professional scenes, and sizes images perfectly for any marketplace. Stop wasting time in Photoshop and boost your sales.</p>
+      <a href="#pricing" class="btn">Get Started Free</a>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why PicPerf?</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>AI background removal</h3>
+          <p>Our algorithms isolate your product in seconds and let you choose from studio‑quality backgrounds.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Preset sizes</h3>
+          <p>Resize and crop your images for Amazon, Etsy, Shopify and social channels with one click.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Templates &amp; branding</h3>
+          <p>Access a library of customizable templates for ads, banners and social posts. Keep your brand consistent.</p>
+        </div>
+        <div class="feature-item">
+          <h3>API access</h3>
+          <p>Integrate PicPerf into your workflow or marketplace with our simple REST API (Pro plans and above).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Choose your plan</h2>
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3>Free</h3>
+          <p class="price">$0/mo</p>
+          <ul>
+            <li>10 images per month</li>
+            <li>Limited background presets</li>
+            <li>Watermarked exports</li>
+          </ul>
+          <a href="#contact" class="btn secondary">Sign Up</a>
+        </div>
+        <div class="plan featured">
+          <h3>Pro</h3>
+          <p class="price">$9.99/mo</p>
+          <ul>
+            <li>50 images per month</li>
+            <li>HD, watermark‑free images</li>
+            <li>Extended backgrounds and templates</li>
+          </ul>
+          <a href="#contact" class="btn">Start Pro</a>
+        </div>
+        <div class="plan">
+          <h3>Unlimited</h3>
+          <p class="price">$29.99/mo</p>
+          <ul>
+            <li>Unlimited images</li>
+            <li>All features unlocked</li>
+            <li>API access included</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="btn secondary">Start Unlimited</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get early access</h2>
+      <p>Enter your email to join the beta program and receive updates when PicPerf launches.</p>
+      <form action="https://formspree.io/f/maypkllq" method="POST" class="contact-form">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit" class="btn">Join Beta</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> PicPerf. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Update year dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
